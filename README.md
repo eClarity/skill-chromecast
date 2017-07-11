@@ -2,7 +2,7 @@
 
 A skill to connect with and control a chromecast device connected to the same local network as Mycroft.
 
-This skill is a work in progress and should be considered pre-alpha
+This skill is a work in progress and should be considered pre-alpha.  The play media feature is currently hardcoded for testing purposes since it requires a URL.
 
 
 # TODO
@@ -10,6 +10,7 @@ This skill is a work in progress and should be considered pre-alpha
 - finish media controller intents
 - multi-device-support
 - Add youtube and other app support
+- remove need for configuration if possible
 
 
 ## Requirements
@@ -30,6 +31,16 @@ git clone https://github.com/eClarity/skill-chromecast
 workon mycroft
 cd skill-chromecast
 pip install -r requirements.txt
+```
+
+## Configuration
+
+Add a block to your Mycroft configuration file like this:
+
+```
+  "ChromecastSkill": {
+    "cc_device": "YourDeviceName",
+  }
 ```
 
 ## Usage:
