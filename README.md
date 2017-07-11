@@ -1,15 +1,15 @@
 # Mycroft AI Chromecast Skill - WIP
 
-A skill to connect with and control a chromecast device connected on the same local network as Mycroft.
+A skill to connect with and control a chromecast device connected to the same local network as Mycroft.
 
 This skill is a work in progress and should be considered pre-alpha
 
 
 # TODO
 
-finish media controller intents
-multi-device-support
-Add youtube and other app support
+- finish media controller intents
+- multi-device-support
+- Add youtube and other app support
 
 
 ## Requirements
