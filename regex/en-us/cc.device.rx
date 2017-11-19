@@ -1,1 +1,2 @@
 (chromecast device status for) (?P<CCDevice>.*)
+(Play chromecast media on) (?P<CCDevice>.*)
